@@ -1,12 +1,11 @@
 var btnTranslate= document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input")
+var outputDiv = document.querySelector("#output");
 
-function clickEventHandler() {
-    console.log("Clickeddd");}
+var serverURL = "https://api.funtranslations.com/translate/minion.json"
 function clickEventHandler() 
 {
-    console.log(txtInput.value);
-    console.log("Clickeddd");
-}
+    outputDiv.innerText = "shdshdk "+ txtInput.value;
+};
 
-btnTranslate.addEventListener("click", clickEventHandler()) 
+btnTranslate.addEventListener("click", clickEventHandler) 
