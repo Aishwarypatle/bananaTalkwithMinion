@@ -14,20 +14,37 @@
             margin: 1cm;
             padding: 1rem;
         }
+        #output {
+            border: 1px solid black;
+            width: 80%;
+            height: 10vh;
+            margin: 1rem;
+            padding: 1rem
+        }
 
     </style>
    
 </head>
-<body>
-<h1>Lets chit chat in Minion Language</h1>
+    <body>
+        <h1>Lets chit chat in Minion Language</h1>
 
-<textarea id="txt-input" placeholder="Enter your Text to get translated in Minion talk"></textarea>
+        <section class="main">
+            <div class="container container-center">
+                <textarea id="txt-input" placeholder="Enter your Text to get translated in Minion talk"></textarea>
 
-<button id="btn-translate">Translate</button>
+                <button id="btn-translate"  style="font-size: larger;" class="btn"></button>>Translate</button>
 
-<div>Output will come here 👇</div>
-<div id="output"></div>
+                <div>Output will come here 👇</div>
+                <div id="output"></div> 
 
-<script src="app.js" type="text/javascript"></script>
-</body>
-</html>
+                <script src="app.js" type="text/javascript"></script>
+
+            </div>
+        </section>
+        <footer>
+            <h3>About</h3>
+            <p>Do you like Minions and their language? Did you know that the gibberish they speak is actually a language?
+                Use this to translate English language to a language Minions speak. Go bannannna! </p>
+        </footer>
+    </body>
+ </html>
