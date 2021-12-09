@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,500;1,100&family=Work+Sans:ital,wght@0,400;1,200&display=swap');
+
+:root {
+    --primary-color: #FCD34D;
+    --emerald-green: #6EE7B7;
+    --off-white: #E5E7EB;
+    --grey:#848a94;
+}
+
+.main {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/** conatiners **/
+.container {
+    padding: 1.0rem 1.5rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+
