@@ -31,4 +31,4 @@ var serverURL = "https://api.funtranslations.com/translate/minion.json"
     .catch(errorHandler)
         };
 
-btnTranslate.addEventListener("click", clickEventHandler) 
+btnTranslate.addEventListener("click", clickHandler) 
